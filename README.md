@@ -2,7 +2,7 @@
 
 A powerful PDF analysis tool powered by LLaMA2 that can read, understand, and answer questions about PDF documents. This project leverages advanced language models and RAG (Retrieval Augmented Generation) to provide intelligent document analysis and natural language interactions.
 
-![Resume Analysis Example](docs/resume_analysis_example.png)
+![Home Page](docs/Home_Page.png)
 
 ## Key Benefits
 
@@ -30,6 +30,7 @@ As shown in the example above, the system can:
 - Comprehend project details and achievements
 - Process complex technical information about various technologies
 - Provide concise summaries of professional experience
+![Resume Analysis Example](docs/resume_analysis_example.png)
 
 ### 2. Document Question-Answering
 - Ask specific questions about document content
