@@ -53,7 +53,7 @@ As shown in the example above, the system can:
   - LLaMA2 via Ollama for natural language processing
   - LangChain for orchestrating the document processing pipeline
   - PyPDF for PDF document parsing
-  - ChromaDB for vector storage and retrieval
+  - FAISS for vector storage and retrieval
   - Sentence Transformers for text embeddings
 
 ## Installation
@@ -99,7 +99,7 @@ streamlit run app.py
 1. **Document Processing**:
    - PDF documents are loaded and split into manageable chunks using LangChain's PyPDFLoader
    - Text is processed and converted into embeddings
-   - Embeddings are stored in ChromaDB for efficient retrieval
+   - Embeddings are stored in FAISS for efficient retrieval
 
 2. **Query Processing**:
    - User questions are analyzed and converted to embeddings
@@ -131,7 +131,7 @@ You can fine-tune the retrieval settings for optimal performance:
 - langchain-community>=0.0.38
 - streamlit-chat==0.1.1
 - pypdf==4.1.0
-- chromadb==0.4.24
+- faiss-cpu>=1.7.4
 - sentence-transformers==2.5.1
 - python-dotenv==1.0.1
 - ollama>=0.1.6
